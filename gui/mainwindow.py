@@ -16,7 +16,7 @@ class MainWindow(QMainWindow):
     
     def _setup_ui(self):
         self.setWindowTitle("Lightning Talks: Example GUI")
-        self.setMinimumSize(800,700)
+        self.setMinimumSize(300,200)
         # Create label for the first number
         self.lbl1 = QLabel('Number 1', self)
         self.lbl1.setGeometry(80, 20, 80, 50)
